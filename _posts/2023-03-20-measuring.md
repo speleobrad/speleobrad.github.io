@@ -16,7 +16,7 @@ We want to understand what's the **visibility** in the water - is it milky, mudd
 
 We also want to undertstand what's the **flow** - is water completelly still or is it moving a bit. Maybe too much for diving? 
 
-## what can we also measure? 
+## what alse?  
 
 **Temperature** sounds like a low-hanging fruit, though it's a question if you'll make any diffence between 6&deg;C and 8&deg;C water. On the other hand, outside (air) temperature is quite useful information. 
 
@@ -43,7 +43,7 @@ Finally, as extra bonus, it allows us to check the intensity drop curve on diffe
 
 Direct measurement can tell us overall murkiness of the water, but will not tell us if suspended matter is large (pieces of leaves, for example) or small (like in milk). Measuring backscatter will give us some hints about the size, so we'll need not one but two light-sensitive receivers. 
 
-First choice is to use one of the I<sup>2</sup>C enabled, easy to read, temperature compensated, lux calibrated, all-singing, all-dancing modules, like TSL... or VIL... but they cost few bucks per piece and will drive total price en mass. 
+First choice is to use one of the I<sup>2</sup>C enabled, easy to read, temperature compensated, lux calibrated, all-singing, all-dancing modules, like TSL2501 or VEML6030, or... but they cost few bucks per piece and will drive total price en mass. 
 Instead I decided to sacrifice 2 analog GPIO inputs from MCU, using regular ultra-cheap photoresistors. 
 
 Tricky part is assembling all of this - to measure backscatter, we should measure intersection of a 15&deg; cone of light shining from LEDs and 15&deg; cone of light coming to photo resistor. Rest of the light (secondary backscatter) should be discarded or attenuated so it doesn't interfere with the measurement. 
@@ -76,6 +76,6 @@ Water level can be measured by placing ultrasonic range finders above the water.
 
 Another approach is to measure water level by in-water probe, using a depth meter, either a proper sensor (expensive) or a selection of cheaper whatstone bridges. 
 
-My best candidate so far is cheap Aliexpress MD-PS002 (rated to, say, 150kPa) in combination with HX711 and some silicone membrane - it's a wheatstone bridge based sensor (weight scale) and silicone will act as a protective membrane. 
+My best candidate so far is cheap Aliexpress MD-PS002 (rated to, say, 700kPa) in combination with HX711 and some silicone membrane - it's a wheatstone bridge based sensor (weight scale) and silicone will act as a protective membrane. 
 If that fails, I'll try resistive films and proper pressure transmitting mechanics, before either dropping the idea, or switching to expensive integrated depth sensors. 
 
