@@ -2,6 +2,11 @@
 layout: single
 title:  "Measurements"
 date:   2023-03-20 15:44:00 +0100
+categories:
+  - mutljomer
+  - tinkering
+tags: 
+  - electronics
 ---
 Big set of questions to answer is "what do we want to know and how to measure it". 
 

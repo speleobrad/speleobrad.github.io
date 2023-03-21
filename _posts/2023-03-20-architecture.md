@@ -2,6 +2,11 @@
 layout: single
 title:  "Architecture and design principles of Mutljomer"
 date:   2023-03-20 15:44:00 +0100
+categories:
+  - mutljomer
+  - tinkering
+tags: 
+  - idea
 ---
 Network of probes sounds like a (by now) classical IoT problem. Is it the case? 
 

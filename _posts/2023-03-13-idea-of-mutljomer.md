@@ -2,6 +2,11 @@
 layout: single
 title:  "Idea of Mutljomer"
 date:   2023-03-13 15:44:00 +0100
+categories:
+  - mutljomer
+  - tinkering
+tags: 
+  - idea
 ---
 Did it ever happen to you to pack for your diving weekend, fill all the tanks, stuff everything in the car, drive for few hours, just to figure out that water it too murky and you can't go diving? We've all been there, and we know it's not fun. 
 
