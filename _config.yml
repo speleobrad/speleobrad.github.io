@@ -118,7 +118,7 @@ google_site_verification: k7hI_FlOCmLYEchFXpyKWJP0BQLyDoL-8K9Sx-XDuyY
 yandex_site_verification: 98236cd8311595ef
 
 logo: /assets/images/logo.jpeg
-masthead_title: "Speleobrad, home of Mutljomer"
+masthead_title: "Speleobrad"
 
 comments:
   provider: "disqus"
@@ -128,6 +128,7 @@ comments:
 search: true
 lunr:
   search_within_pages: true
+  search_full_content: true
 
 compress_html:
   clippings: all
