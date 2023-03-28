@@ -126,6 +126,7 @@ comments:
     shortname: "speleobrad"
 
 search: true
+search_provider: google
 google:
   seach_engine_id: d6258f869e7374fe0
 
