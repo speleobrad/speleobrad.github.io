@@ -126,9 +126,8 @@ comments:
     shortname: "speleobrad"
 
 search: true
-lunr:
-  search_within_pages: true
-  search_full_content: true
+google:
+  seach_engine_id: d6258f869e7374fe0
 
 compress_html:
   clippings: all
