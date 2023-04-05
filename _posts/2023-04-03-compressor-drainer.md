@@ -46,24 +46,25 @@ gallery_printed:
     - url: /assets/images/drainer/vortex-drainer-parts.jpg
       image_path: /assets/images/drainer/vortex-drainer-parts.jpg
       title: Vortex drainer parts. Transparent PETG, Variable layer height.
-    - url: /assets/images/drainer/vortex-drainer-parts-side-by-side.jpg
-      image_path: /assets/images/drainer/vortex-drainer-parts-side-by-side.jpg
-      title: Vortex drainer parts. Transparent PETG, Variable layer height.  
     - url: /assets/images/drainer/vortex-drainer-lid.jpg
       image_path: /assets/images/drainer/vortex-drainer-lid.jpg
       title: Vortex drainer lid with holes for accepting hoses from compressor condensate drain. Transparent PETG, Variable layer height.
+    - url: /assets/images/drainer/vortex-drainer-parts-side-by-side.jpg
+      image_path: /assets/images/drainer/vortex-drainer-parts-side-by-side.jpg
+      title: Vortex drainer parts. Transparent PETG, Variable layer height.  
     - url: /assets/images/drainer/vortex-drainer-lid-inside.jpg
       image_path: /assets/images/drainer/vortex-drainer-lid-inside.jpg
       title: Air flow holes inside vortex drainer that divert the air towards ouside walls. Transparent PETG, Variable layer height.
-    - url: /assets/images/drainer/vortex-drainer-with-hose.jpg
-      image_path: /assets/images/drainer/vortex-drainer-with-hose.jpg
-      title: Vortex drainer with fitted hose. Transparent PETG, Variable layer height.
-    - url: /assets/images/drainer/vortex-drainer-inlet-prototype.jpg
-      image_path: /assets/images/drainer/vortex-drainer-inlet-prototype.jpg
-      title: Early prototype of an inlet block with air diverters. Looks cool but took ages to print. White PETG, 0.20mm.
     - url: /assets/images/drainer/vortex-drainer-in-printing.jpg
       image_path: /assets/images/drainer/vortex-drainer-in-printing.jpg
       title: Vortex drainer during printing.
+    - url: /assets/images/drainer/vortex-drainer-inlet-prototype.jpg
+      image_path: /assets/images/drainer/vortex-drainer-inlet-prototype.jpg
+      title: Early prototype of an inlet block with air diverters. Looks cool but took ages to print. White PETG, 0.20mm.
+    - url: /assets/images/drainer/vortex-drainer-with-hose.jpg
+      image_path: /assets/images/drainer/vortex-drainer-with-hose.jpg
+      title: Vortex drainer with fitted hose. Transparent PETG, Variable layer height.
+
 
 ---
 After getting splashed few times by compressor condensate, I decided to build an overengineered vortex drainer.
@@ -82,13 +83,13 @@ I played with [BOSL2 library](https://github.com/revarbat/BOSL2) and, after bang
 
 For extra points, I configured slopes on the the critical parts so they print easier and have added slightly expanding holes for hoses, so they self-lock as they are pushed in.
 
-{% include gallery id="gallery_model" class="full" caption="Looks of Vortex drainer" %}
+{% include gallery id="gallery_model" class="full" layout="half" caption="Looks of Vortex drainer" %}
 
 # Printing 
 
 Printing it turned to be a bit of a challenge as some threads look like overhangs and I really don't like supports on PETG. I tried variable layer height and ended up with few spaghetti prints, but fixed layer height seem to be working just fine. 
 
-{% include gallery id="gallery_printed" class="full" caption="Looks of Vortex drainer" %}
+{% include gallery id="gallery_printed" class="full" layout="half" caption="Looks of Vortex drainer" %}
 
 # Files and stuff
 
