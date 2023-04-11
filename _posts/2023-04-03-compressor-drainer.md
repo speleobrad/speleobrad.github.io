@@ -33,9 +33,6 @@ gallery_model:
     - url: /assets/images/drainer/model-08.png  
       image_path: /assets/images/drainer/model-08.png
       title: ... or 4, if that's how much you have... 
-
-
-
 gallery_printed:
     - url: /assets/images/drainer/vortex-drainer-assembled.jpg
       image_path: /assets/images/drainer/vortex-drainer-assembled.jpg
@@ -65,6 +62,12 @@ gallery_printed:
       image_path: /assets/images/drainer/vortex-drainer-with-hose.jpg
       title: Vortex drainer with fitted hose. Transparent PETG, Variable layer height.
 
+excerpt: "After getting splashed few times by compressor condensate, I decided to build an overengineered vortex drainer."
+header: 
+  teaser: /assets/images/drainer/vortex-teaser.jpg
+  overlay_image: /assets/images/drainer/vortex-teaser.jpg
+  overlay_filter: 0.5
+  caption: "Photo credit: [*Andrew Teoh / Unsplash*](https://unsplash.com/photos/8I_URI_FGu0?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)"
 
 ---
 After getting splashed few times by compressor condensate, I decided to build an overengineered vortex drainer.
