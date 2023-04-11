@@ -7,6 +7,8 @@ categories:
   - tinkering
 tags: 
   - idea
+header: 
+  teaser: /assets/images/architecture/teaser.jpg 
 ---
 Network of probes sounds like a (by now) classical IoT problem. Is it the case? 
 

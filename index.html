@@ -1,4 +1,27 @@
 ---
-layout: home
-author_profile: true
+title: "Speleobrad"
+layout: splash
+date: 2023-04-11T10:26:41-04:00
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/splash.jpg
+  caption: "Photo credit: [Jong Marshes / Unsplash](https://unsplash.com/photos/79mNMAvSORg?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)"
+excerpt: "Diving, caving, cave diving."
+intro: 
+  - excerpt: 'Random rants about caving, diving, 3D printing, DIY projects and technology'
 ---
+
+{% include feature_row id="intro" type="center" %}
+
+<div class="page__related">
+    <h2 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "Recent posts" }}</h2>
+    <div class="grid__wrapper">
+      {% for post in site.posts limit:4 %}
+        {% if post.id == page.id %}
+          {% continue %}
+        {% endif %}
+        {% include archive-single.html type="grid" %}
+      {% endfor %}
+    </div>
+  </div>
