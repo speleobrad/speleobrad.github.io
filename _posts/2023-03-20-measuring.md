@@ -9,8 +9,8 @@ tags:
   - electronics
 excerpt: 'Big set of questions to answer is "what do we want to know and how to measure it"? '
 header: 
-  teaser: /assets/images/measuring/teaser.jpg
-  overlay_image: /assets/images/measuring/teaser.jpg
+  teaser: /assets/images/measuring/measuring-teaser.jpg
+  overlay_image: /assets/images/measuring/measuring-teaser.jpg
   overlay_filter: 0.5
   caption: "Photo credit: [*Miguel A Amutio / Unsplash*](https://unsplash.com/photos/ngZ4V-myG5s?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)"
 ---
