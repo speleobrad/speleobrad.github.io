@@ -7,11 +7,13 @@ categories:
   - tinkering
 tags: 
   - idea
+excerpt: "Network of probes sounds like a (by now) classical IoT problem. Is it the case? "
 header: 
   teaser: /assets/images/architecture/teaser.jpg 
+  overlay_image: /assets/images/architecture/teaser.jpg
+  overlay_filter: 0.5
+  caption: "Photo credit: [*Joshua Sortino / Unsplash*](https://unsplash.com/photos/LqKhnDzSF-8?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)"
 ---
-Network of probes sounds like a (by now) classical IoT problem. Is it the case? 
-
 # Architecture
 
 Mutljomer, as a system is designed in a classical client-server architecture: 

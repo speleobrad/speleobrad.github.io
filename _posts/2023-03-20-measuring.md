@@ -7,9 +7,13 @@ categories:
   - tinkering
 tags: 
   - electronics
+excerpt: 'Big set of questions to answer is "what do we want to know and how to measure it"? '
+header: 
+  teaser: /assets/images/measuring/teaser.jpg
+  overlay_image: /assets/images/measuring/teaser.jpg
+  overlay_filter: 0.5
+  caption: "Photo credit: [*Miguel A Amutio / Unsplash*](https://unsplash.com/photos/ngZ4V-myG5s?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)"
 ---
-Big set of questions to answer is "what do we want to know and how to measure it". 
-
 # What to measure? 
 
 We want to understand what's the **visibility** in the water - is it milky, muddy, with silt... general color of the murkiness would be good to get - brown-milky is way worse than white-bluish milky.
@@ -74,7 +78,7 @@ Above-the-water proble can use of the more fancer BMPx80 sensors - they offer te
 
 Water level can be measured by placing ultrasonic range finders above the water. As water level rises, they would measure shorted distances and vice versa. This approach has number of problems - range finders are typically not water proof, you might not always be able to mount the comms box directly above the water and so on. 
 
-Another approach is to measure water level by in-water probe, using a depth meter, either a proper sensor (expensive) or a selection of cheaper whatstone bridges. 
+Another approach is to measure water level by in-water probe, using a depth meter, either a proper sensor (expensive) or a selection of cheaper wheatstone bridges. 
 
 My best candidate so far is cheap Aliexpress MD-PS002 (rated to, say, 700kPa) in combination with HX711 and some silicone membrane - it's a wheatstone bridge based sensor (weight scale) and silicone will act as a protective membrane. 
 If that fails, I'll try resistive films and proper pressure transmitting mechanics, before either dropping the idea, or switching to expensive integrated depth sensors. 
