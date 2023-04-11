@@ -7,6 +7,12 @@ categories:
   - tinkering
 tags: 
   - idea
+excerpt: "Did it ever happen to you to pack for your diving weekend, fill all the tanks, stuff everything in the car, drive for few hours, just to figure out that water it too murky and you can't go diving? We've all been there, and we know it's not fun. "
+header: 
+  teaser: /assets/images/idea/idea-teaser.jpg
+  overlay_image: /assets/images/idea/idea-teaser.jpg
+  overlay_filter: 0.5
+  caption: "Photo credit: [*Leo Nard / Unsplash*](https://unsplash.com/photos/Z9gJbdGjRN8?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)"
 ---
 Did it ever happen to you to pack for your diving weekend, fill all the tanks, stuff everything in the car, drive for few hours, just to figure out that water it too murky and you can't go diving? We've all been there, and we know it's not fun. 
 
