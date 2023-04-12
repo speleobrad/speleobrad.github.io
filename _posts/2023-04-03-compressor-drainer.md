@@ -96,6 +96,6 @@ Printing it turned to be a bit of a challenge as some threads look like overhang
 
 # Files and stuff
 
-Rendered SLTs are available on Printables.com. 
+Rendered SLTs and OpenSCAD source are available on [Printables.com](https://www.printables.com/model/443598-vortex-condensate-drainer). 
 
 Happy printing and happy draining ;) 
