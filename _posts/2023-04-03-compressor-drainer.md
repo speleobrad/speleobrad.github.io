@@ -2,9 +2,7 @@
 layout: single
 title:  "Vortex drainer"
 date:   2023-04-04 16:48:00 +0100
-categories:
-    - compressor
-    - tinkering
+categories: compressor
 tags: 
     - compressor
     - openscad
@@ -14,10 +12,10 @@ gallery_model:
       title: Vortex drainer model
     - url: /assets/images/drainer/model-02.png
       image_path: /assets/images/drainer/model-02.png
-      title: Modled with PET bottle thread. Note the air divertion holes inside the lid. 
+      title: Modeled with PET bottle thread. Note the air diverting holes inside the lid. 
     - url: /assets/images/drainer/model-03.png
       image_path: /assets/images/drainer/model-03.png
-      title: Vortex drainer - detail of the lid with highligted air flow channels
+      title: Vortex drainer - detail of the lid with highlighted air flow channels
     - url: /assets/images/drainer/model-04.png
       image_path: /assets/images/drainer/model-04.png
       title: Lid for 3 hoses. 
@@ -51,7 +49,7 @@ gallery_printed:
       title: Vortex drainer parts. Transparent PETG, Variable layer height.  
     - url: /assets/images/drainer/vortex-drainer-lid-inside.jpg
       image_path: /assets/images/drainer/vortex-drainer-lid-inside.jpg
-      title: Air flow holes inside vortex drainer that divert the air towards ouside walls. Transparent PETG, Variable layer height.
+      title: Air flow holes inside vortex drainer that divert the air towards outside walls. Transparent PETG, Variable layer height.
     - url: /assets/images/drainer/vortex-drainer-in-printing.jpg
       image_path: /assets/images/drainer/vortex-drainer-in-printing.jpg
       title: Vortex drainer during printing.
@@ -74,9 +72,9 @@ After getting splashed few times by compressor condensate, I decided to build an
 
 # Intro 
 
-I saw various solutions for draining the condensate from the compressor stages - from "factory" drainage buckets (regular bucket with inlet hose opening and vent holes placed in such a way that you mostly don't get splashed) to DIY solutions involving PET bottles and pocket knifes that result in flying bottles and some cursing and swearing. Some of my friends drain compressors "on the spot" resulting in wet and sligtly greasy floors, while one (dear) friend uses old T-shirt to "muffle the sound and collect water". You can imagine the color and smell of that cloth.
+I saw various solutions for draining the condensate from the compressor stages - from "factory" drainage buckets (regular bucket with inlet hose opening and vent holes placed in such a way that you mostly don't get splashed) to DIY solutions involving PET bottles and pocket knifes that result in flying bottles and some cursing and swearing. Some of my friends drain compressors "on the spot" resulting in wet and slightly greasy floors, while one (dear) friend uses old T-shirt to "muffle the sound and collect water". You can imagine the color and smell of that cloth.
 
-I wanted to use this as oportunity to learn OpenSCAD and I designed parametric vortex separator (overengineering at its best) to trap water and oil while allowing air to escape. 
+I wanted to use this as opportunity to learn OpenSCAD and I designed parametric vortex separator (overengineering at its best) to trap water and oil while allowing air to escape. 
 
 # OpenSCAD model
 
